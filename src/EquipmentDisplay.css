@@ -1,0 +1,64 @@
+/* EquipmentDisplay.css */
+
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    color: #333;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .equipment-table th,
+  .equipment-table td {
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .equipment-table th {
+    background-color: #556272;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .equipment-table tr:last-child td {
+    border-bottom: none;
+  }
+  .outage-alert {
+    padding: 11px;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #1a1515;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: -9px;
+    display: inline-block;
+}
+.responsive-container {
+  padding: 20px;
+}
+
+.equipment-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.selected {
+  background-color: #f0f8ff;
+}
+
+.outage-alert {
+  color: red;
+  font-weight: bold;
+}
+
+.grid-label {
+  font-weight: bold;
+}
+
+.grid-value {
+  text-align: left;
+}
